@@ -35,3 +35,8 @@
   object-position: center;
   object-fit: cover;
 }
+
+#pokemonList {
+  max-height: 60vh;
+  overflow-y: auto;
+}
