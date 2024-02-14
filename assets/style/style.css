@@ -1,0 +1,37 @@
+:root {
+  --primary-theme: #d0423b;
+  --accent-theme: #e69b9e;
+  --support-theme: #f0f0f0; 
+}
+
+/* #region color theme classes */
+.redish {
+  color: var(--primary-theme);
+}
+.bg-redish {
+  background-color: var(--primary-theme);
+}
+.pinkish {
+  color: var(--accent-theme);
+}
+.bg-pinkish {
+  background-color: var(--accent-theme);
+}
+.greyish {
+  color: var(--support-theme);
+}
+.bg-greyish {
+  background-color: var(--support-theme);
+}
+/* #endregion */
+
+/* BASIC STYLES HERE */
+
+.display-img {
+  padding: 64px, 128px;
+  margin: 8px;
+  border-radius: 8px;
+  max-height: 40vh;
+  object-position: center;
+  object-fit: cover;
+}
