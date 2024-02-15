@@ -9,6 +9,12 @@ export const api = axios.create({
   withCredentials: true
 })
 
+// @ts-ignore
+export const pokemonAPI = axios.create({
+  baseURL:'https://pokeapi.co/api/v2/pokemon' ,
+  timeout: 
+})
+
 api.interceptors.request.use(config => config, handleAxiosError)
 api.interceptors.response.use(response => response, handleAxiosError)
 
